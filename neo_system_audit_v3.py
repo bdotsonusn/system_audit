@@ -9,7 +9,14 @@ def run_ps(ps_cmd):
     """Run a PowerShell command and return stdout text."""
     try:
         completed = subprocess.run(
-            ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-Command", ps_cmd],
+            [
+                "powershell",
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                ps_cmd,
+            ],
             capture_output=True,
             text=True,
         )

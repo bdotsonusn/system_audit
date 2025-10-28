@@ -1,7 +1,9 @@
 ﻿import json
 from pathlib import Path
 from typing import Any, Dict
+
 from .base import AuditExporter
+
 
 class JSONExporter(AuditExporter):
     name = "json"

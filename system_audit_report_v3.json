@@ -1,0 +1,412 @@
+{
+  "system": {
+    "machine": "NEONODE01",
+    "os": "Windows 11",
+    "version": "10.0.26200",
+    "generated_at": "2025-10-28T13:06:49"
+  },
+  "downloads": [
+    {
+      "name": "neo_system_audit_v2.py",
+      "size_MB": 0.0,
+      "modified": "2025-10-28T11:18:51"
+    },
+    {
+      "name": "Dotson_Federal_Wage_Packet.pdf",
+      "size_MB": 4.47,
+      "modified": "2025-10-28T10:01:33"
+    },
+    {
+      "name": "sp162860.exe",
+      "size_MB": 17.11,
+      "modified": "2025-10-27T16:54:30"
+    },
+    {
+      "name": "sp158405.exe",
+      "size_MB": 7.08,
+      "modified": "2025-10-27T16:54:07"
+    },
+    {
+      "name": "sp163285.exe",
+      "size_MB": 595.22,
+      "modified": "2025-10-27T16:53:23"
+    },
+    {
+      "name": "sp163069.exe",
+      "size_MB": 23.78,
+      "modified": "2025-10-27T16:52:04"
+    },
+    {
+      "name": "sp154041.exe",
+      "size_MB": 4.07,
+      "modified": "2025-10-27T16:51:16"
+    },
+    {
+      "name": "amd-software-adrenalin-edition-25.9.1-minimalsetup-250901_web (1).exe",
+      "size_MB": 41.6,
+      "modified": "2025-10-27T16:32:26"
+    },
+    {
+      "name": "sp155170 (1).exe",
+      "size_MB": 1.1,
+      "modified": "2025-10-27T16:24:23"
+    },
+    {
+      "name": "sp152517.exe",
+      "size_MB": 8.61,
+      "modified": "2025-10-27T16:23:15"
+    },
+    {
+      "name": "sp161681.exe",
+      "size_MB": 7.69,
+      "modified": "2025-10-27T16:13:20"
+    },
+    {
+      "name": "amd-software-adrenalin-edition-25.9.1-minimalsetup-250901_web.exe",
+      "size_MB": 41.6,
+      "modified": "2025-10-27T16:03:37"
+    },
+    {
+      "name": "DisplayLink USB Graphics Software for Windows12.1-EXE.exe",
+      "size_MB": 60.56,
+      "modified": "2025-10-27T15:45:03"
+    },
+    {
+      "name": "sp155170.exe",
+      "size_MB": 1.1,
+      "modified": "2025-10-27T15:31:07"
+    },
+    {
+      "name": "sp158060.exe",
+      "size_MB": 19.05,
+      "modified": "2025-10-27T15:31:03"
+    },
+    {
+      "name": "sp161510.exe",
+      "size_MB": 13.67,
+      "modified": "2025-10-27T15:31:01"
+    },
+    {
+      "name": "Git-2.51.1-64-bit.exe",
+      "size_MB": 63.1,
+      "modified": "2025-10-27T15:04:24"
+    },
+    {
+      "name": "VSCodeUserSetup-x64-1.105.1.exe",
+      "size_MB": 110.14,
+      "modified": "2025-10-27T15:02:15"
+    },
+    {
+      "name": "scribus-1.6.4-windows-x64.exe",
+      "size_MB": 118.76,
+      "modified": "2025-10-27T14:59:41"
+    },
+    {
+      "name": "inkscape-1.4.2_2025-05-13_f4327f4-x64.msi",
+      "size_MB": 143.5,
+      "modified": "2025-10-27T14:55:42"
+    },
+    {
+      "name": "Canva Setup 1.117.1.exe",
+      "size_MB": 173.7,
+      "modified": "2025-10-27T14:51:56"
+    },
+    {
+      "name": "DaVinci_Resolve_20.2.2_Windows.zip",
+      "size_MB": 2936.36,
+      "modified": "2025-10-27T14:00:14"
+    },
+    {
+      "name": "Obsidian-1.9.14.exe",
+      "size_MB": 265.11,
+      "modified": "2025-10-27T13:36:03"
+    },
+    {
+      "name": "BraveBrowserSetup-BRV015.exe",
+      "size_MB": 1.22,
+      "modified": "2025-10-27T13:32:12"
+    },
+    {
+      "name": "7z2501-x64.exe",
+      "size_MB": 1.57,
+      "modified": "2025-10-27T13:31:43"
+    },
+    {
+      "name": "python-manager-25.0.msix",
+      "size_MB": 43.8,
+      "modified": "2025-10-27T13:30:00"
+    },
+    {
+      "name": "npp.8.8.7.Installer.x64.exe",
+      "size_MB": 6.6,
+      "modified": "2025-10-27T13:28:21"
+    },
+    {
+      "name": "desktop.ini",
+      "size_MB": 0.0,
+      "modified": "2025-10-27T11:23:01"
+    }
+  ],
+  "installed_programs": [
+    {
+      "DisplayName": "7-Zip 25.01 (x64)",
+      "DisplayVersion": "25.01",
+      "Publisher": "Igor Pavlov"
+    },
+    {
+      "DisplayName": "AMD DVR64",
+      "DisplayVersion": "1.0.2",
+      "Publisher": "Advanced Micro Devices, Inc."
+    },
+    {
+      "DisplayName": "AMD Settings",
+      "DisplayVersion": "1.0.2",
+      "Publisher": "Advanced Micro Devices, Inc."
+    },
+    {
+      "DisplayName": "AMD Settings",
+      "DisplayVersion": "2025.0701.0345.1996",
+      "Publisher": "Advanced Micro Devices, Inc."
+    },
+    {
+      "DisplayName": "AMD Software",
+      "DisplayVersion": "25.Q3.1",
+      "Publisher": "Advanced Micro Devices, Inc."
+    },
+    {
+      "DisplayName": "AMD User Experience Program Installer",
+      "DisplayVersion": "2319.23.11.701",
+      "Publisher": "Advanced Micro Devices, Inc."
+    },
+    {
+      "DisplayName": "AMD WVR64",
+      "DisplayVersion": "1.0.2",
+      "Publisher": "Advanced Micro Devices, Inc."
+    },
+    {
+      "DisplayName": "Blackmagic RAW Common Components",
+      "DisplayVersion": "5.0",
+      "Publisher": "Blackmagic Design"
+    },
+    {
+      "DisplayName": "Brave",
+      "DisplayVersion": "141.1.83.120",
+      "Publisher": "Brave Software Inc"
+    },
+    {
+      "DisplayName": "DaVinci Resolve",
+      "DisplayVersion": "20.2.20010",
+      "Publisher": "Blackmagic Design"
+    },
+    {
+      "DisplayName": "DaVinci Resolve Control Panels",
+      "DisplayVersion": "2.3.4.0",
+      "Publisher": "Blackmagic Design"
+    },
+    {
+      "DisplayName": "DisplayLink Graphics",
+      "DisplayVersion": "12.1.2424.0",
+      "Publisher": "DisplayLink Corp."
+    },
+    {
+      "DisplayName": "Git",
+      "DisplayVersion": "2.51.1",
+      "Publisher": "The Git Development Community"
+    },
+    {
+      "DisplayName": "HP Accessory WMI Provider",
+      "DisplayVersion": "1.2.2",
+      "Publisher": "HP"
+    },
+    {
+      "DisplayName": "HP Connection Optimizer",
+      "DisplayVersion": "2.0.20.0",
+      "Publisher": "HP Inc"
+    },
+    {
+      "DisplayName": "HP Documentation",
+      "DisplayVersion": "1.0.0.1",
+      "Publisher": "HP Inc."
+    },
+    {
+      "DisplayName": "HP One Agent",
+      "DisplayVersion": "1.2.7.1708",
+      "Publisher": "HP Inc."
+    },
+    {
+      "DisplayName": "HP One Agent",
+      "DisplayVersion": "1.2.007.1708",
+      "Publisher": "HP Inc."
+    },
+    {
+      "DisplayName": "Inkscape",
+      "DisplayVersion": "1.4.2",
+      "Publisher": "Inkscape"
+    },
+    {
+      "DisplayName": "Logi Options+",
+      "DisplayVersion": "1.96.781095",
+      "Publisher": "Logitech"
+    },
+    {
+      "DisplayName": "Logi Plugin Service",
+      "DisplayVersion": "6.2.2.879",
+      "Publisher": "Logitech"
+    },
+    {
+      "DisplayName": "Logi RightSightForWebcams 1.1.205",
+      "DisplayVersion": "1.1.205.0",
+      "Publisher": "Logitech"
+    },
+    {
+      "DisplayName": "McAfee",
+      "DisplayVersion": "1.34.154.1",
+      "Publisher": "McAfee, LLC"
+    },
+    {
+      "DisplayName": "Microsoft 365 - en-us",
+      "DisplayVersion": "16.0.19231.20216",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Edge",
+      "DisplayVersion": "141.0.3537.99",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Edge WebView2 Runtime",
+      "DisplayVersion": "141.0.3537.99",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft OneNote - en-us",
+      "DisplayVersion": "16.0.19231.20216",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664",
+      "DisplayVersion": "12.0.40664.0",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664",
+      "DisplayVersion": "12.0.40664.0",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664",
+      "DisplayVersion": "12.0.40664",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664",
+      "DisplayVersion": "12.0.40664",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664",
+      "DisplayVersion": "12.0.40664",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664",
+      "DisplayVersion": "12.0.40664",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.42.34438",
+      "DisplayVersion": "14.42.34438.0",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.40.33810",
+      "DisplayVersion": "14.40.33810.0",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.42.34438",
+      "DisplayVersion": "14.42.34438",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.42.34438",
+      "DisplayVersion": "14.42.34438",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33810",
+      "DisplayVersion": "14.40.33810",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33810",
+      "DisplayVersion": "14.40.33810",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Notepad++ (64-bit x64)",
+      "DisplayVersion": "8.8.7",
+      "Publisher": "Notepad++ Team"
+    },
+    {
+      "DisplayName": "Obsidian",
+      "DisplayVersion": "1.9.14",
+      "Publisher": "Obsidian"
+    },
+    {
+      "DisplayName": "Office 16 Click-to-Run Extensibility Component",
+      "DisplayVersion": "16.0.19231.20216",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Office 16 Click-to-Run Licensing Component",
+      "DisplayVersion": "16.0.17328.20206",
+      "Publisher": "Microsoft Corporation"
+    },
+    {
+      "DisplayName": "Scribus 1.6.4 (64bit)",
+      "DisplayVersion": "1.6.4",
+      "Publisher": "The Scribus Team"
+    },
+    {
+      "DisplayName": "WebAdvisor by McAfee",
+      "DisplayVersion": "4.1.1.1076",
+      "Publisher": "McAfee, LLC"
+    }
+  ],
+  "gpu_driver": [
+    {
+      "DeviceName": "AMD Radeon (TM) Graphics",
+      "DriverVersion": "31.0.21923.11000",
+      "DriverDate": "/Date(1751328000000)/"
+    },
+    {
+      "DeviceName": "Trigger 6 External Graphics",
+      "DriverVersion": "1.9.2501.423",
+      "DriverDate": "/Date(1745366400000)/"
+    }
+  ],
+  "bios": {
+    "SMBIOSBIOSVersion": "F.20",
+    "Manufacturer": "AMI",
+    "ReleaseDate": "/Date(1753401600000)/"
+  },
+  "monitors": [
+    {
+      "Name": "Generic Monitor (SE2717H/HX)",
+      "Manufacturer": "(Standard monitor types)",
+      "DeviceID": "DISPLAY\\DELD0A1\\8&11E8227&0&UID256"
+    },
+    {
+      "Name": "Generic Monitor (SE2717H/HX)",
+      "Manufacturer": "(Standard monitor types)",
+      "DeviceID": "DISPLAY\\DELD0A1\\8&11E8227&0&UID257"
+    },
+    {
+      "Name": "Integrated Monitor",
+      "Manufacturer": "(Standard monitor types)",
+      "DeviceID": "DISPLAY\\AUO6DB2\\5&4CF6281&0&UID256"
+    }
+  ],
+  "displaylink": {}
+}

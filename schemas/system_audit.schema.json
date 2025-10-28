@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NEO System Audit Report",
+  "type": "object",
+  "properties": {
+    "machine": {
+      "type": "object",
+      "properties": {
+        "computer_name": { "type": "string" },
+        "os_version":     { "type": "string" },
+        "cpu":            { "type": "string" },
+        "ram_gb":         { "type": ["number","integer","string"] }
+      },
+      "additionalProperties": true
+    },
+    "installed_programs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "DisplayName":    { "type": "string" },
+          "DisplayVersion": { "type": ["string","null"] },
+          "Publisher":      { "type": ["string","null"] }
+        },
+        "required": ["DisplayName"],
+        "additionalProperties": true
+      }
+    },
+    "drivers": {
+      "type": "array",
+      "items": { "type": "object", "additionalProperties": true }
+    }
+  },
+  "required": ["installed_programs"],
+  "additionalProperties": true
+}

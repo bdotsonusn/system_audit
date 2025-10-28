@@ -1,9 +1,9 @@
-import os
 import json
 import platform
 import subprocess
 from datetime import datetime
 from pathlib import Path
+
 
 def run_ps(ps_cmd):
     """Run a PowerShell command and return stdout text."""
@@ -15,6 +15,7 @@ def run_ps(ps_cmd):
         return completed.stdout.strip()
     except Exception as e:
         return f"ERROR: {e}"
+
 
 def downloads_inventory():
     dl = Path.home() / "Downloads"
@@ -30,6 +31,7 @@ def downloads_inventory():
     items.sort(key=lambda x: x["modified"], reverse=True)
     return items
 
+
 def os_summary():
     return {
         "machine": platform.node(),
@@ -37,6 +39,7 @@ def os_summary():
         "version": platform.version(),
         "generated_at": datetime.now().isoformat(timespec="seconds")
     }
+
 
 def installed_programs():
     ps = r"""
@@ -57,6 +60,7 @@ $apps | Sort-Object DisplayName | ConvertTo-Json -Depth 3
     except Exception:
         return {"raw": raw}
 
+
 def gpu_driver():
     ps = r"""
 Get-CimInstance Win32_PnPSignedDriver |
@@ -70,6 +74,7 @@ Get-CimInstance Win32_PnPSignedDriver |
     except Exception:
         return {"raw": raw}
 
+
 def bios_info():
     ps = r"""
 Get-CimInstance Win32_BIOS |
@@ -82,6 +87,7 @@ Get-CimInstance Win32_BIOS |
     except Exception:
         return {"raw": raw}
 
+
 def monitors():
     ps = r"""
 Get-CimInstance Win32_PnPEntity |
@@ -93,6 +99,7 @@ Get-CimInstance Win32_PnPEntity |
         return json.loads(raw)
     except Exception:
         return {"raw": raw}
+
 
 def displaylink_version():
     ps = r"""
@@ -111,6 +118,7 @@ if($result){ $result | Select-Object -First 1 | ConvertTo-Json } else { '{}' }
     except Exception:
         return {"raw": raw}
 
+
 def write_report(data):
     desktop = Path.home() / "OneDrive" / "Desktop"
     if not desktop.exists():
@@ -118,6 +126,7 @@ def write_report(data):
     out = desktop / "system_audit_report_v3.json"
     out.write_text(json.dumps(data, indent=2))
     return out
+
 
 if __name__ == "__main__":
     report = {

@@ -10,7 +10,8 @@ def run_ps(ps_cmd):
     try:
         completed = subprocess.run(
             ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-Command", ps_cmd],
-            capture_output=True, text=True
+            capture_output=True,
+            text=True,
         )
         return completed.stdout.strip()
     except Exception as e:
@@ -23,11 +24,15 @@ def downloads_inventory():
     if dl.exists():
         for p in dl.iterdir():
             if p.is_file():
-                items.append({
-                    "name": p.name,
-                    "size_MB": round(p.stat().st_size / (1024*1024), 2),
-                    "modified": datetime.fromtimestamp(p.stat().st_mtime).isoformat(timespec="seconds")
-                })
+                items.append(
+                    {
+                        "name": p.name,
+                        "size_MB": round(p.stat().st_size / (1024 * 1024), 2),
+                        "modified": datetime.fromtimestamp(p.stat().st_mtime).isoformat(
+                            timespec="seconds"
+                        ),
+                    }
+                )
     items.sort(key=lambda x: x["modified"], reverse=True)
     return items
 
@@ -37,7 +42,7 @@ def os_summary():
         "machine": platform.node(),
         "os": f"{platform.system()} {platform.release()}",
         "version": platform.version(),
-        "generated_at": datetime.now().isoformat(timespec="seconds")
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
     }
 
 
@@ -136,7 +141,7 @@ if __name__ == "__main__":
         "gpu_driver": gpu_driver(),
         "bios": bios_info(),
         "monitors": monitors(),
-        "displaylink": displaylink_version()
+        "displaylink": displaylink_version(),
     }
     path = write_report(report)
     print(f"✅ Audit complete: {path}")

@@ -30,6 +30,9 @@ This tool helps ensure your development baseline is consistent across machines a
 | `README.md` | Project overview and usage guide |
 
 ---
+© 2025 Bradley Dotson.  
+Released under the MIT License.  
+Authored and maintained by **Neo Dotson** within the NEO Protocol System.
 
 ## 🖥️ Usage
 

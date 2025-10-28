@@ -1,0 +1,33 @@
+# NEO System Audit - Git Ignore Rules
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs and reports
+*.log
+*.csv
+*.tmp
+*.bak
+*.json.backup
+
+# System / Env Files
+.env
+*.bat
+*.sh
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.workspace
+
+# OS Generated
+ehthumbs.db
+Icon?

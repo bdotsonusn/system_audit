@@ -25,12 +25,10 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install --upgrade pip
-          # Try local project (editable) if present; otherwise skip
-          if [ -f pyproject.toml ] || [ -f setup.py ]; then
-            # try dev extras, fall back to base
+          # dev extras if available; fallback to base
+          if [ -f pyproject.toml ] || [ -f setup.py ] || [ -f setup.cfg ]; then
             python -m pip install -e .[dev] || python -m pip install -e .
           fi
-          # Ensure linters are present no matter what
           python -m pip install flake8 black isort
 
       - name: Lint (flake8/black/isort)
@@ -55,3 +53,4 @@ jobs:
               # do not fail the whole job just because package isn't wired yet
               sys.exit(0)
           PY
+

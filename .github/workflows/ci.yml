@@ -43,7 +43,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          pytest -v --maxfail=1 --disable-warnings
+          pytest -v --maxfail=1 --disable-warnings --cov=src/system_audit --cov-report=term-missing --cov-fail-under=80
 
       - name: Schema smoke
         shell: bash
@@ -59,4 +59,5 @@ jobs:
               # do not fail the whole job just because package isn't wired yet
               sys.exit(0)
           PY
+
 

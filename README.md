@@ -1,6 +1,13 @@
 ﻿# ðŸ§  NEO System Audit
 
+
 **Version:**   3.1.0  
+
+[![CI](https://github.com/bdotsonusn/system_audit/actions/workflows/ci.yml/badge.svg)](https://github.com/bdotsonusn/system_audit/actions/workflows/ci.yml)
+
+
+**Version:** 3.0.0  
+
 **Author:** Neo Dotson (`bdotsonusn@gmail.com`)  
 **Purpose:** Rapid environment and package inventory for Windows-based dev systems.
 

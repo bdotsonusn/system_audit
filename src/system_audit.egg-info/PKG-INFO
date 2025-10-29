@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: system-audit
+Version: 3.1.0
+Summary: NEO System Audit
+Author: Brad Dotson
+Requires-Python: >=3.11
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Dynamic: license-file

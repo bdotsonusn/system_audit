@@ -1,0 +1,10 @@
+[run]
+source = src/system_audit
+branch = True
+
+[report]
+omit =
+    */__init__.py
+    */tests/*
+show_missing = True
+skip_covered = True

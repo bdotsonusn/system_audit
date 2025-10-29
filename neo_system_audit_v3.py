@@ -35,9 +35,7 @@ def downloads_inventory():
                     {
                         "name": p.name,
                         "size_MB": round(p.stat().st_size / (1024 * 1024), 2),
-                        "modified": datetime.fromtimestamp(p.stat().st_mtime).isoformat(
-                            timespec="seconds"
-                        ),
+                        "modified": datetime.fromtimestamp(p.stat().st_mtime).isoformat(timespec="seconds"),
                     }
                 )
     items.sort(key=lambda x: x["modified"], reverse=True)

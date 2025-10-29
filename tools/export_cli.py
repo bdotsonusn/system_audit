@@ -28,12 +28,8 @@ def main():
     from system_audit.exports.json_exporter import JSONExporter
 
     exporters = {"json": JSONExporter()}
-    parser = argparse.ArgumentParser(
-        prog="export_cli", description="NEO System Audit export"
-    )
-    parser.add_argument(
-        "--format", dest="fmt", choices=exporters.keys(), default="json"
-    )
+    parser = argparse.ArgumentParser(prog="export_cli", description="NEO System Audit export")
+    parser.add_argument("--format", dest="fmt", choices=exporters.keys(), default="json")
     parser.add_argument("--out-dir", dest="out_dir", default="dist/audit")
     args = parser.parse_args()
     report = _get_report()

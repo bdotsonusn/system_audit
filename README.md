@@ -1,5 +1,7 @@
 # 🧠 NEO System Audit
 
+![CI](https://github.com/bdotsonusn/system_audit/actions/workflows/ci.yml/badge.svg)
+
 **Version:** 3.0.0  
 **Author:** Neo Dotson (`bdotsonusn@gmail.com`)  
 **Purpose:** Rapid environment and package inventory for Windows-based dev systems.

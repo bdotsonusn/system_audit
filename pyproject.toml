@@ -16,5 +16,6 @@ dev = [
   "flake8",
   "black",
   "isort",
-  "pytest"
+  "pytest".
+  "pytest-cov"
 ]

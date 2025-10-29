@@ -18,4 +18,5 @@ dev = [
   "isort",
   "pytest",
   "pytest-cov"
-]
+][tool.pytest.ini_options]
+testpaths = ["tests"]

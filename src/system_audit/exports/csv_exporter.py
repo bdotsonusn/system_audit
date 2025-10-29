@@ -1,13 +1,16 @@
 from __future__ import annotations
+
 import csv
 from pathlib import Path
 from typing import Any, Dict, Iterable, Tuple
 
 from .base import AuditExporter
 
+
 def _rows_from_report(report: Dict[str, Any]) -> Iterable[Tuple[str, str]]:
     for k, v in report.items():
         yield str(k), str(v)
+
 
 class CSVExporter(AuditExporter):
     name = "csv"

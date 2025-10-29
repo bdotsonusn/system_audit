@@ -39,6 +39,12 @@ jobs:
           black --check .
           isort --check-only .
 
+      - name: Run tests (pytest)
+        shell: bash
+        run: |
+          set -euo pipefail
+          pytest -v --maxfail=1 --disable-warnings
+
       - name: Schema smoke
         shell: bash
         run: |

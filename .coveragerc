@@ -1,4 +1,4 @@
-﻿[run]
+[run]
 source = src/system_audit
 branch = True
 
